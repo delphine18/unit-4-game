@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystals Collector!</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+	<div class="header">
+		<h2>CrystalsCollector!</h2>
+	</div>
+
+  <div class = "instructions">
+    <h5>You will be given a random number at the start of the game.</h5>
+    <h5>There are four crystals below.By clicking on a crystal you will add a  specific amount of points to your total sscore.</h5>
+    <h5>You win the game by watching your total score to random number,you lose the game if your total score goes above the random number.</h5>
+    <h5>The value of each crystal is hidden from you until you click on it.</h5>
+    <h5>Each time when the game starts,the game will change the values of each crystal.</h5>
+  </div>
+
+  <section class="wrapper">
+    <div class="targetNumber">
+      <h2><span id= "randomNumber"></span></h2>
+    </div>
+    
+    <div class = "winsAndLosses">
+        <p class ="message"></p>
+        <p>Wins : <span class= "winsNum"></span></p>
+        <p>Losses : <span class= "lossesNum"></span></p>
+    </div>
+  </section>
+	
+
+	<div class="crystals">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgauaajcPDpWoddWoh__PZ2PI0rJiQEgUT55K8qmx8TwPs4wPzpg" alt="crystal" class="crystal one">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfxXidBEjy8Uz_wa6NFo98ozBfazAGWhp1oB7A-efj0B6smnj" alt="crystal" class="crystal two">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQippCHDqN9kK9ViFLJFy8wBnsESl8ATSDI__B-Wsj0rM0XRh1VDg" alt="crystal" class="crystal three">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGT_DrhPa4siZ_Vws_gYlGQXDo4ttdmLDIg98m7tgw3seqJS2MEA" alt="crystal" class="crystal four">
+  </div>
+  
+	<div class="total">
+		<h4>Your total score is:<span id="finalScore"></span></h4>
+  </div>
+  
+</body>
+</html>
