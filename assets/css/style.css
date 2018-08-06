@@ -22,7 +22,7 @@ background: lightgrey;
 }
 
 .targetNumber{
-  padding: 28px;
+  padding: 0 25px 56px 4px;
   width: 22%;
   background: lightseagreen;
   color : white;
@@ -54,9 +54,12 @@ h4{
   position: fixed;
   bottom: 10px;
   width: 30%;
-  padding: 26px;
+  padding: 24px;
   background: lightsalmon;
   color : white;
 }
 
-
+.finalScore{
+  display: block;
+ 
+}
