@@ -20,6 +20,7 @@ function reset(){
   $('.finalScore').text(total);
 } 
 
+//creates crystals images and the associated data
 for (var i = 0;i<4;i++){
   var num = Math.floor(Math.random()*12)+1;
   var newCrystal = $("<img>");
@@ -49,7 +50,7 @@ $(".crystal").on("click",function(){
           reset()  
         } 
       })
-})
+});
 
     
 
